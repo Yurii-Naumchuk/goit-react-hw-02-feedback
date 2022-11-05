@@ -10,7 +10,7 @@ export const StatisticsItem = styled.ul`
 export const StatisticsList = styled.li`
   margin-right: 15px;
   border: 2px solid #bfe2ff;
-  background: #337ab7;
+  background: #33b766;
   font-family: 'Roboto Condensed', Тahoma, sans-serif;
   color: #fff;
   padding: 12px 30px;

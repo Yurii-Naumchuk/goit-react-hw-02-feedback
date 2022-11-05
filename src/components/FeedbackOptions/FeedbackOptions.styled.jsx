@@ -16,9 +16,9 @@ export const Button = styled.button`
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Roboto Condensed', Тahoma, sans-serif;
-  background: #337ab7;
+  background: #33b766;
   cursor: pointer;
-  border: 2px solid #bfe2ff;
+  border: none;
   overflow: hidden;
   z-index: 1;
   border-radius: 10px;
@@ -35,7 +35,7 @@ export const Button = styled.button`
     bottom: 0;
     left: 0;
     border-right: 50px solid transparent;
-    border-top: 50px solid #2d6b9f;
+    border-top: 50px solid #006527;
     transition: transform 0.5s;
     transform: translateX(-100%);
     z-index: -1;
