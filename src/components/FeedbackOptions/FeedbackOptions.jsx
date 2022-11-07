@@ -1,12 +1,12 @@
 import React from 'react';
 import { FeedbackButton, Button } from './FeedbackOptions.styled';
 
-export const FeedbackOptions = ({ IncrementStatistics }) => {
+export const FeedbackOptions = ({ incrementStatistics }) => {
   return (
     <FeedbackButton>
-      <Button onClick={() => IncrementStatistics('good')}>Good</Button>
-      <Button onClick={() => IncrementStatistics('neutral')}>Neutral</Button>
-      <Button onClick={() => IncrementStatistics('bad')}>Bad</Button>
+      <Button onClick={() => incrementStatistics('good')}>Good</Button>
+      <Button onClick={() => incrementStatistics('neutral')}>Neutral</Button>
+      <Button onClick={() => incrementStatistics('bad')}>Bad</Button>
     </FeedbackButton>
   );
 };
